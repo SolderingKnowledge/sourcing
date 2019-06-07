@@ -6,4 +6,7 @@ insertingContent
 # master1
 # tima is saving message
 # aikol left behind
+<<<<<<< HEAD
 # tima making changes
+=======
+>>>>>>> master
