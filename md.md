@@ -28,4 +28,4 @@ insertingContent
 # aikol start
 # master aikol tima
 >>>>>>> 0230b5fe37b4608eae10cb203eb37a748160bf70
-# master commiting
+# master {commiting}
