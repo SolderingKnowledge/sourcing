@@ -20,4 +20,8 @@ insertingContent
 # aikol is starting to shine
 # aikol start
 # all branches are here
+<<<<<<< HEAD
 # master start
+=======
+# aikol start
+>>>>>>> aikol
