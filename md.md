@@ -29,3 +29,4 @@ insertingContent
 # master aikol tima
 >>>>>>> 0230b5fe37b4608eae10cb203eb37a748160bf70
 # master is here and 1st and 2nd
+third stash
