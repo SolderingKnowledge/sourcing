@@ -1,0 +1,37 @@
+{
+  "name": "sourcing",
+  "version": "1.0.0",
+  "description": "Fullstack application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "backend": "nodemon index -i client",
+    "client": "npm start --prefix client",
+    "both": "concurrently \"npm run backend\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SolderingKnowledge/sourcing.git"
+  },
+  "author": "SolderingKnowledge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SolderingKnowledge/ok/issues"
+  },
+  "homepage": "https://github.com/SolderingKnowledge/sourcing#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "gravatar": "^1.8.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.15",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "concurrently": "^5.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
