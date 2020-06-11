@@ -7,7 +7,6 @@ class App extends Component {
         todos: []
     }
     onClick= async () => {
-        console.log("clicked")
         const res = await axios.get("http://localhost:5000");
         this.setState({todos: res.data.todos});
     }
